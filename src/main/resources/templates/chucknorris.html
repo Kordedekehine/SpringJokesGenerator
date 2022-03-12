@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Jokes</title>
+</head>
+<body>
+<h1>Chuck Norris Joke!!!</h1>
+<p th:text="${joke}">Insert joke here!!!</p>
+<!--note that the joke is directly referenced from the JokeController class..which-->
+<!--in there is also getting and appending joke from JokeService interface-->
+</body>
+</html>

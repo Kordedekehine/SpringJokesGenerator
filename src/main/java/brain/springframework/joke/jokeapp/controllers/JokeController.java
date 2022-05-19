@@ -17,7 +17,7 @@ public class JokeController {
         this.jokeService = jokeService;
     }
 
-    @RequestMapping({"/", ""}) //This gonna map out the context root for us and also show the joke
+    @RequestMapping({"api/v1/joke", ""}) //This gonna map out the context root for us and also show the joke
     public String showJoke(Model model){ //We want to add an attribute that pass in the instance of the model
 
         model.addAttribute("joke", jokeService.getJoke());

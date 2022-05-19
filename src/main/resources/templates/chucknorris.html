@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Jokes</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.0/examples/signin/signin.css" rel="stylesheet" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: pink;
+            color: purple;
+        }
+        </style>
 </head>
-<body>
-<h1>Chuck Norris Joke!!!</h1>
-<p th:text="${joke}">Insert joke here!!!</p>
+<body style="background-color:white" marginwidth="400px" >
+<h1 style="color:yellow" >Chuck Norris Joke!!!</h1>
+<p style="color:brown" th:text="${joke}">Insert joke here!!!</p>
 <!--note that the joke is directly referenced from the JokeController class..which-->
 <!--in there is also getting and appending joke from JokeService interface-->
 </body>

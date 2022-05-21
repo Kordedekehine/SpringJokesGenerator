@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ImportResource;
 
 
 @SpringBootApplication
-@ImportResource("classpath:chuck-config.xml")
+//@ImportResource("classpath:chuck-config.xml")
  public class JokeappApplication {
 	public static void main(String[] args) {
 
